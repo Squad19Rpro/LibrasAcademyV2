@@ -12432,43 +12432,37 @@ nav{
 }
 
 /* Login */
-.login-body{
-  position: relative; 
+.main-login{
   height: 100vh;
 }
-.login-body-child{
-  position: absolute; 
-  z-index: -1; 
-  inset: 0px;  
-  background-attachment: fixed; 
-  background-size: cover; 
-  background-color: transparent; 
-  background-repeat: no-repeat; 
-  background-position: center center; 
-  background-image: none; 
-  overflow: hidden;
-}
-video{
-  margin: auto; 
-  position: absolute; 
-  top: 50%; left: 50%; 
-  transform: translate(-50%, -50%); 
-  visibility: visible; 
-  opacity: 1; 
-  width: 100%; 
-}
-@media (max-width:900px){
-  video{
-    width: 200%;
-  }
-}
-@media (max-width:470px){
-  video{
-    width: 300%;
-  }
-}
 
-/* teste */
+.login-body-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/course-app-animate.svg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.login-form{
+  background-color: white;
+  border-radius: 25px;
+  width: 450px;
+  margin-top: 60px;
+  padding: 30px;
+}
+.login{
+  height: 100vh;
+}
+.cadastro{
+  margin-top: 160px;
+  padding-bottom: 80px;
+}
+/*icon star */
 .bi-star-fill, .bi-star-half{
   color: #d5c002;
 }
