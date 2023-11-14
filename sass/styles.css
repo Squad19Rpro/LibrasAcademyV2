@@ -12128,7 +12128,7 @@ body::-webkit-scrollbar-thumb:hover {
 .divOculta{
   position: relative;
   width: 100%;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 50px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12137,6 +12137,22 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   width: 80%;
   height: 90%;
+}
+@media (max-width: 900px){
+  .divOculta > iframe{
+    width: 70%;
+    height: 80%;
+  }
+}
+@media (max-width: 600px){
+  .divOculta > iframe{
+    height: 60%;
+  }
+}
+@media (max-width: 450px){
+  .divOculta > iframe{
+    height: 55%;
+  }
 }
 .divClose button{
   background-color: rgba(0, 0, 0, 0);
@@ -12462,7 +12478,12 @@ nav{
   margin-top: 160px;
   padding-bottom: 80px;
 }
-/*icon star */
+/*icons */
 .bi-star-fill, .bi-star-half{
   color: #d5c002;
+}
+.bi-x-circle{
+  font-size: 30px;
+  width: 100%;
+  margin: auto;
 }
