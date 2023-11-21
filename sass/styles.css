@@ -12646,7 +12646,7 @@ nav{
   font-size: 8px;
 }
 
-
+/* 
 .dropdown-toggle::after {
   position: absolute;
   right: 18px;
@@ -12656,4 +12656,4 @@ nav{
   font-weight: 900;
   content: '\f105';
   top: 10px;
-}
+} */
